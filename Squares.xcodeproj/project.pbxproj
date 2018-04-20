@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373B3C1E208A1ABD00BDEE47 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 373B3C1D208A1ABD00BDEE47 /* thumbnail.png */; };
 		37821F222089476A008B9DD6 /* SquaresView.h in Headers */ = {isa = PBXBuildFile; fileRef = 37821F212089476A008B9DD6 /* SquaresView.h */; };
 		37821F242089476A008B9DD6 /* SquaresView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37821F232089476A008B9DD6 /* SquaresView.m */; };
+		37821F2E208953A1008B9DD6 /* ParticleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 37821F2C208953A1008B9DD6 /* ParticleView.h */; };
+		37821F2F208953A1008B9DD6 /* ParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37821F2D208953A1008B9DD6 /* ParticleView.m */; };
+		37821F32208954B2008B9DD6 /* RectangleScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 37821F30208954B2008B9DD6 /* RectangleScene.h */; };
+		37821F33208954B2008B9DD6 /* RectangleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 37821F31208954B2008B9DD6 /* RectangleScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		373B3C1D208A1ABD00BDEE47 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		37821F1E2089476A008B9DD6 /* Squares.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Squares.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		37821F212089476A008B9DD6 /* SquaresView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquaresView.h; sourceTree = "<group>"; };
 		37821F232089476A008B9DD6 /* SquaresView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquaresView.m; sourceTree = "<group>"; };
 		37821F252089476A008B9DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37821F2C208953A1008B9DD6 /* ParticleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleView.h; sourceTree = "<group>"; };
+		37821F2D208953A1008B9DD6 /* ParticleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleView.m; sourceTree = "<group>"; };
+		37821F30208954B2008B9DD6 /* RectangleScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectangleScene.h; sourceTree = "<group>"; };
+		37821F31208954B2008B9DD6 /* RectangleScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectangleScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		373B3C1C208A1AB100BDEE47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37821F252089476A008B9DD6 /* Info.plist */,
+				373B3C1D208A1ABD00BDEE47 /* thumbnail.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		37821F142089476A008B9DD6 = {
 			isa = PBXGroup;
 			children = (
@@ -48,11 +67,23 @@
 		37821F202089476A008B9DD6 /* Squares */ = {
 			isa = PBXGroup;
 			children = (
-				37821F212089476A008B9DD6 /* SquaresView.h */,
-				37821F232089476A008B9DD6 /* SquaresView.m */,
-				37821F252089476A008B9DD6 /* Info.plist */,
+				373B3C1C208A1AB100BDEE47 /* Resources */,
+				37821F2B208952E0008B9DD6 /* Source */,
 			);
 			path = Squares;
+			sourceTree = "<group>";
+		};
+		37821F2B208952E0008B9DD6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				37821F212089476A008B9DD6 /* SquaresView.h */,
+				37821F232089476A008B9DD6 /* SquaresView.m */,
+				37821F2C208953A1008B9DD6 /* ParticleView.h */,
+				37821F2D208953A1008B9DD6 /* ParticleView.m */,
+				37821F30208954B2008B9DD6 /* RectangleScene.h */,
+				37821F31208954B2008B9DD6 /* RectangleScene.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,6 +94,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37821F222089476A008B9DD6 /* SquaresView.h in Headers */,
+				37821F32208954B2008B9DD6 /* RectangleScene.h in Headers */,
+				37821F2E208953A1008B9DD6 /* ParticleView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373B3C1E208A1ABD00BDEE47 /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37821F2F208953A1008B9DD6 /* ParticleView.m in Sources */,
 				37821F242089476A008B9DD6 /* SquaresView.m in Sources */,
+				37821F33208954B2008B9DD6 /* RectangleScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = P7A5Q97UJ7;
-				INFOPLIST_FILE = Squares/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Squares/Resources/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danberry.Squares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -269,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = P7A5Q97UJ7;
-				INFOPLIST_FILE = Squares/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Squares/Resources/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danberry.Squares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
